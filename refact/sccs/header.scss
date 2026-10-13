@@ -1,0 +1,50 @@
+@use 'colores' as c;
+
+header {
+    background-color: c.$azul-principal;
+    color: c.$blanco;
+    padding: 20px 40px;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    p {
+        margin: 5px 0 0 0;
+        font-style: italic;
+    }
+}
+
+nav {
+    background-color: c.$gris-menu;
+    padding: 10px 40px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    a {
+        color: c.$blanco;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+
+        &.activo {
+            color: c.$azul-activo;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@use 'colores' as c;
+
+footer {
+    background-color: c.$gris-footer;
+    color: c.$gris-footer-texto;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 20px;
+
+    p {
+        margin: 0;
+        line-height: 1.6;
+    }
+
+    .copy-peq {
+        margin: 5px 0 0 0;
+        font-size: 0.9em;
+    }
+}

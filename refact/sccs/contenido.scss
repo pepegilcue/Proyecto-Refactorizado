@@ -1,0 +1,66 @@
+
+@use 'colores' as c;
+
+.caja-contenido {
+    background-color: c.$blanco;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lista-habilidades {
+    list-style: square;
+    padding-left: 20px;
+
+    li {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+.subtitulo-habilidades {
+    color: #555;
+    margin-top: 30px;
+}
+
+#proyectos-destacados {
+    margin-top: 30px;
+
+    h3 {
+        color: c.$gris-texto;
+    }
+}
+
+.proyecto-pendiente {
+    background-color: #eee;
+    border: 1px dashed #ccc;
+    padding: 40px;
+    text-align: center;
+    color: #777;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+}
+
+input,
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form button {
+    align-self: flex-start;
+}
