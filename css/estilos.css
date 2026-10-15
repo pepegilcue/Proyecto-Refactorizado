@@ -1,0 +1,160 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px 40px;
+  min-height: 60vh;
+}
+
+h2 {
+  color: #004a99;
+  border-bottom: 2px solid #004a99;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+#proyectos-destacados {
+  margin-top: 30px;
+}
+
+.cabecera {
+  background-color: #004a99;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+.cabecera h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+.cabecera p {
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px 40px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.menu a.activo {
+  color: #00aaff;
+}
+
+.boton {
+  background-color: #004a99;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.boton:hover {
+  background-color: #00aaff;
+}
+
+.tarjeta {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.destacado {
+  font-size: 1.1em;
+}
+
+.subtitulo {
+  color: #555;
+  margin-top: 30px;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+}
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.marcador {
+  background-color: #eee;
+  border: 1px dashed #ccc;
+  padding: 40px;
+  text-align: center;
+  color: #777;
+}
+
+.formulario {
+  margin-top: 20px;
+}
+.formulario .campo {
+  margin-bottom: 15px;
+}
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1em;
+}
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: 2px solid #00aaff;
+  border-color: #00aaff;
+}
+
+.pie {
+  background-color: #222;
+  color: #aaa;
+  padding: 20px 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.pie p {
+  margin: 0;
+}
+.pie .copy-peq {
+  margin-top: 5px;
+  font-size: 0.9em;
+}

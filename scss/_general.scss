@@ -1,0 +1,30 @@
+body {
+    background-color: $gris-fondo;
+    color: $gris-texto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px 40px;
+    min-height: 60vh;
+}
+
+h2 {
+    color: $azul;
+    border-bottom: 2px solid $azul;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: $gris-texto;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#proyectos-destacados {
+    margin-top: 30px;
+}
